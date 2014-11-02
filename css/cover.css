@@ -41,9 +41,11 @@ body {
   width: 100%;
   height: 100%; /* For at least Firefox */
   min-height: 100%;
-  background: url("../images/background.jpg");
-   background-size: 100% 100%;
+  background-image: url("../images/background/web-h800.png");
    background-repeat: no-repeat;
+background-size: auto 803px;
+background-attachment: local;
+background-position: center top;
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.8);
           box-shadow: inset 0 0 100px rgba(0,0,0,.8);
 }
